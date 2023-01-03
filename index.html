@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+  
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <h1>Encriptador</h1>
+    </header>    
+    
+    <main class="main">
+        <div class="descripcion">
+            <p>Ingrese un texto a encriptar o desencriptar usando solo letras minusculas y sin tildes.</p>
+        </div> 
+        <div class="container">
+          
+            <form >
+                <div class="text-box">
+                    <label for="input-text">Ingrese el texto aquí</label>
+                    <textarea name="input-text" id="input-text" cols="30" rows="10" class="form-control" spellcheck="false"></textarea>
+                    <br>
+                    <input type="button" value="Encriptar" id="boton-encriptar" >      
+                    <br>      
+                    <input type="button" value="Desencriptar" id="boton-desencriptar" class="copy">            
+                </div>                
+            </form>                                              
+            <form >
+                <div class="text-box">
+                    <label class="derecha" for="input-text">Texto desencriptado</label>
+                    <textarea  name="encrypted-text" id="encrypted-text" cols="30" rows="10" class="form-control-d"  spellcheck="false"></textarea>
+                    <br>
+                    <input type="button" value="Copiar texto" id="boton-copiar" >
+                </div>                    
+            </form>
+            
+        </div>    
+    </main>
+
+    <footer>
+     <p>designed by Nathalia gaitan for oracle one-alura latam challenge</p>
+    </footer>
+    
+    
+    <script src="script.js"></script>
+   
+</body>
+</html>
