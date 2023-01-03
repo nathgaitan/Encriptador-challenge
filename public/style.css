@@ -11,6 +11,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(/public/images/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 
   }
   
